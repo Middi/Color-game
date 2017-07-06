@@ -18,7 +18,7 @@ easyBtn.addEventListener('click', function(){
     colors = generateRandomColors(numSquares);
     pickedColor = pickColor();
     colorDisplay.textContent = pickedColor;
-    h1.style.backgroundColor = "#232323";
+    h1.style.backgroundColor = "steelblue";
     
     for(var i = 0; i < squares.length; i++) {
         if(colors[i]){
@@ -38,7 +38,7 @@ hardBtn.addEventListener('click', function(){
     colors = generateRandomColors(numSquares);
     pickedColor = pickColor();
     colorDisplay.textContent = pickedColor;
-    h1.style.backgroundColor = "#232323";
+    h1.style.backgroundColor = "steelblue";
     
     for(var i = 0; i < squares.length; i++) {
             squares[i].style.backgroundColor = colors[i];
@@ -50,7 +50,7 @@ resetButton.addEventListener('click', function(){
     colors = generateRandomColors(numSquares);
     pickedColor = pickColor();
     colorDisplay.textContent = pickedColor;
-    h1.style.backgroundColor = "#232323";
+    h1.style.backgroundColor = "steelblue";
     
     for(var i = 0; i < squares.length; i++) {
         squares[i].style.backgroundColor = colors[i];
@@ -72,7 +72,7 @@ for(var i = 0; i < squares.length; i++) {
            resetButton.textContent = "Play Again!";
        }
        else {
-           this.style.backgroundColor = "#232323";
+           this.style.backgroundColor = "steelblue";
            messageDisplay.textContent = "Try Again";
        }
     });
