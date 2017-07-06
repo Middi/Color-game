@@ -17,6 +17,10 @@ h1 {
     text-align: center;
 }
 
+.selected {
+    background: blue;
+}
+
 .square {
     width: 30%;
     background: purple;
