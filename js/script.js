@@ -54,7 +54,7 @@ function reset(){
     colorDisplay.textContent = pickedColor;
     h1.style.backgroundColor = "steelblue";
     messageDisplay.textContent = "";
-    resetButton.textContent = "New Colors"
+    resetButton.textContent = "New Colors";
     
     for(var i = 0; i < squares.length; i++) {
         if(colors[i]) {
